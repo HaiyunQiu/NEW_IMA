@@ -1,22 +1,24 @@
 body {
-	margin: 0;
+	margin: 50px;
 	font-family: 'League Spartan', sans-serif;
-	font-size: 20px;
-	line-height: 30px;
+	font-size: 30px;
+	line-height: 40px;
 }
 
 /*Header section*/
 
 header{
-	background-color: black;
+	background-color: PaleVioletRed;
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
 header h1{
-	color:  white;
-	font-size: 50px;
+	color:  Lavender;
+	font-size: 70px;
+	font-style:oblique;
+	
 }
 
 header img{
@@ -26,14 +28,22 @@ header img{
 }
 
 /*Main section*/
-main{
+main h1{
+	color:  Maroon;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+main p{
+	color: Black ;
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 0 20px;
 }
 
 main img{
-	max-width: 100%;
+	max-width: 800px;
 }
 
 main h2{
@@ -42,11 +52,11 @@ main h2{
 }
 
 main a{
-	color: black;
+	color: CornflowerBlue;
 }
 
 main a:hover{
-	background-color: black;
+	background-color: LightBlue;
 	color: white;
 }
 
@@ -60,7 +70,7 @@ p.caption{
 /*Footer section*/
 
 footer{
-	background-color: black;
+	background-color: PaleVioletRed;
 	text-align: center;
 	padding: 50px;
 }
@@ -77,5 +87,5 @@ footer a{
 
 footer a:hover{
 	background-color: white;
-	color: black;
+	color: LightSkyBlue;
 }
